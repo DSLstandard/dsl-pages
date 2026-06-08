@@ -2,6 +2,7 @@ import type { PageInfo } from "./page_info";
 import { asciiPageInfo } from "../app_ascii/page_info";
 import { base64PageInfo } from "../app_base64/page_info";
 import { braillePageInfo } from "../app_braille/page_info";
+import { clientInfoPageInfo } from "../app_clientinfo/page_info";
 import { editorPageInfo } from "../app_editor/page_info";
 import { formatJsonPageInfo } from "../app_formatjson/page_info";
 import { greekLetterPageInfo } from "../app_greekletter/page_info";
@@ -30,6 +31,7 @@ export const DSL_PAGE_INFOS: PageInfo[] = [
   asciiPageInfo,
   base64PageInfo,
   braillePageInfo,
+  clientInfoPageInfo,
   editorPageInfo,
   formatJsonPageInfo,
   greekLetterPageInfo,
